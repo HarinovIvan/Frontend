@@ -479,6 +479,45 @@ img {
     border-radius: 10px;
 }
 
+.form-item:active{
+    background-color: #9e7117;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+} 
+
+.form-item:hover{
+    background-color: #2f5532;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+
+.form-item:focus{
+    background-color: #9e7117;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+    outline: 2px solid yellow;
+}
+
+.form-item1:active{
+    background-color: #9e7117;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+    outline: 2px solid yellow;
+} 
+
+.form-item1:hover{
+    background-color: #2f5532;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+
+.form-item1:focus{
+    background-color: #9e7117;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+    outline: 2px solid yellow;
+}
+
 .pp1 {
     width: 620px;
     font-weight: 400;
@@ -513,6 +552,27 @@ img {
     background: #F7C35F;
     border-radius: 20px;
 
+}
+
+
+.but:active{
+    outline: 2px solid yellow;
+    background-color: #A16C06;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+} 
+
+.but:hover{
+    background-color: #F6D086;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+
+.but:focus{
+    outline: 2px solid yellow;
+    background-color: #C58D21;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
 }
 
 .text6 {
@@ -685,17 +745,8 @@ img {
     height: 60px;
 }
 
-.ap1z{
-    font-weight: 600;
-    font-size: 20px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0 0 0;
-}
-
 .one1z {
-    width: 108px;
+    max-width: 108px;
 }
 
     
@@ -796,26 +847,56 @@ img {
     max-width: 868px;
 }
 
+.m1 {
+    height: 313px;
+    background: url("../image/prc.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-text {
+    display: flex;  
+}
 
-.article2z:hover{
+.img-m1 {
+    width: 90px;
+    height: 90px;
+}
+
+.m2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #344C31;
+    font-weight: 400;
+    font-size: 50px;
+    padding: 0 0 0 50px;
+}
+
+.m1-btn {
     background-color: #F7C35F;
-    cursor: pointer;
-    transition: all 0.3s ease-in 0s;
-
+    padding: 25px 50px;
+    border-radius: 20px;
+    margin: 0 0 0 279px;
+    text-transform: uppercase;
 }
 
-.article3z:focus {
-
-    background-color: #6A8A6D;
+.m1-btn:active{
+    outline: 2px solid yellow;
+    background-color: #A16C06;
     cursor: pointer;
-    border: none;
-    outline: none;
+    transition: all 0.3s ease-in 0s;
+} 
+
+.m1-btn:hover{
+    background-color: #F6D086;
+    cursor: pointer;
     transition: all 0.3s ease-in 0s;
 }
 
-.article4z:active{
-    background-color: #263C28;
+.m1-btn:focus{
+    outline: 2px solid yellow;
+    background-color: #C58D21;
     cursor: pointer;
     transition: all 0.3s ease-in 0s;
-
 }

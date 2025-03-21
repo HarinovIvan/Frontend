@@ -55,6 +55,64 @@
     }
 }
 
+@media (max-width: 599.98px){
+    .article4z {
+        background-color: rgb(88, 63, 16);
+    }
+    .ap2z {
+        font-size: 12px;
+        background-color: rgb(88, 63, 16);
+    }
+
+    .i1z {
+        width: 70px;
+        height: 30px;
+    }
+
+    .allz {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 479.98px){
+    .article4z {
+        background-color: rgb(241, 181, 70);
+    }
+    .ap2z {
+        font-size: 12px;
+        background-color: rgb(241, 181, 70);
+    }
+
+    .i1z {
+        width: 60px;
+        height: 20px;
+    }
+
+    .allz {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 319.98px){
+    .article4z {
+        background-color: rgb(26, 202, 93);
+    }
+    .ap2z {
+        font-size: 10px;
+        background-color: rgb(26, 202, 93);
+    }
+
+    .i1z {
+        width: 60px;
+        height: 20px;
+    }
+
+    .allz {
+        flex-wrap: wrap;
+    }
+}
+
+
 
 
 
