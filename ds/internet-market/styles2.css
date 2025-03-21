@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+}
+h1 {
+    text-align: center;
+    font-size: 120px;
+}
+.all {
+    text-align: center;
+    border-radius: 12px;
+    background-color: white;
+    height: 45em;
+    width: 50em;
+    margin: 0 35em;
+}
+.email {
+    font-size: 16px;
+    transform: scale(3);
+    position: relative;
+    top: -90px;
+}
+.login {
+    font-size: 14px;
+    transform: scale(3);
+    position: relative;
+    bottom: 40px;
+}
+.pass {
+    font-size: 8px;
+    transform: scale(3);
+    position: relative;
+    top: 10px;
+}
+.passw {
+    font-size: 15px;
+    transform: scale(3);
+    position: relative;
+    top: 60px;
+}
+.cb {
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+}
+.cf {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 1px;
+    margin-top: 0px ;
+}
+.qwe {
+    font-size: 100px;
+}
+.butto {
+    transform: scale(5);
+    position: relative;
+    top: 190px;
+}
+.qwer {
+    text-align: center;
+    font-size: 120px;
+    text-decoration: none;
+    position: relative;
+    top: 400px;
+    color: black;
+}

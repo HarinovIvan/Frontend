@@ -1,0 +1,61 @@
+@media (max-width: 1279.98px){
+    .article4z {
+        background-color: gray;
+    }
+    .ap2z {
+        font-size: 18px;
+        background-color: gray;
+    }
+
+    .i1z {
+        width: 105px;
+        height: 58px;
+    }
+
+    .allz {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1023.98px){
+    .article4z {
+        background-color: bisque;
+    }
+    .ap2z {
+        font-size: 18px;
+        background-color: bisque;
+    }
+
+    .i1z {
+        width: 100px;
+        height: 55px;
+    }
+
+    .allz {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 767.98px){
+    .article4z {
+        background-color: lightskyblue;
+    }
+    .ap2z {
+        font-size: 14px;
+        background-color: lightskyblue;
+    }
+
+    .i1z {
+        width: 90px;
+        height: 50px;
+    }
+
+    .allz {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+

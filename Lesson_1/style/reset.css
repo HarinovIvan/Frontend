@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    left: 20px;
+    top: 0;
+    right: 20px;
+    z-index: 98;
+}
+.navigation {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    right: 20px;
+    top: 65px;
+    left: 20px;
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+.main {
+    display: flex;
+    margin-top: 20px;
+}
+.card {
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+    margin: 0px 20px 0 0;
+    text-align: center;
+}
+.as {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.title1 {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.paragraph_all {
+    font-size: 20px;
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    border-radius: 12px;
+    margin: 0px 0 0 0;
+}
+
+.parah {
+    text-align: center;
+    width: 300px;
+    margin: 10px 0 20px 0;
+    padding: 10px;
+}
+
+.card1 {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    padding: 4px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 20px;
+    position: relative;
+}
+.button {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    position: absolute;
+    right: 135px;
+    bottom: 10px;
+}
+.as {
+    position: sticky;
+}

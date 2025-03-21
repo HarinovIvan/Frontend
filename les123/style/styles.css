@@ -1,0 +1,258 @@
+.section2 {
+    background-color: #445945;
+    width: 100%;
+    padding: 113px 0 180px 0;
+}
+
+.but {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 0 0 133px;
+}
+.aq {
+    max-width: 991px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.text12 {
+    padding: 25px 0 0 0;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 0 0 93px 0;
+    max-width: 157px;
+}
+
+.b1 {
+    padding: 25px 50px;
+    max-width: 218px;
+    background-color: #F7C35F;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.b2 {
+    padding: 25px 50px;
+    background-color: #F7C35F;
+    border-radius: 20px;
+    text-transform: uppercase;
+    max-width: 218px;
+}
+
+.b3 {
+    padding: 25px 50px;
+    background-color: #F7C35F;
+    border-radius: 20px;
+    text-transform: uppercase;
+    max-width: 218px;
+}
+
+.b4 {
+    padding: 25px 50px;
+    background-color: #F7C35F;
+    border-radius: 20px;
+    max-width: 218px;
+    text-transform: uppercase;
+}
+
+.b2:hover {
+    background-color: #F6D086;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+
+.b3:focus {
+    background-color: #C58D21;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+
+.b4:active {
+    background-color: #A16C06;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+
+.fv {
+    background-color: #334B35;
+    width: 100%;
+    height: 616px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article1 {
+    background: #445945;
+    border-radius: 15px;
+    padding: 36px 37.5px;
+}
+
+.i1{
+    padding: 0 24px;
+}
+
+.ap1{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+
+.one1 {
+    width: 108px;
+}
+
+.article2 {
+    background: #445945;
+    border-radius: 15px;
+    padding: 36px 37.5px;
+}
+    
+.ap2{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+
+.article3 {
+    background: #445945;
+    border-radius: 15px;
+    padding: 36px 37.5px;
+}
+    
+.ap3{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+
+.article4 {
+    background: #445945;
+    border-radius: 15px;
+    padding: 36px 37.5px;
+}
+    
+.ap4{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+
+.all {
+    display: flex;
+    gap: 54px;
+}
+
+
+.one {
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 157px;
+    margin: 55px 7px 0 19px;
+}
+
+.two {
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 157px;
+    margin: 55px 7px 0 19px;
+}
+
+.thre {
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 157px;
+    margin: 55px 7px 0 19px;
+}
+
+.four {
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 157px;
+    margin: 55px 7px 0 19px;
+}
+
+.text {
+    display: flex;
+    gap: 80px;
+    max-width: 868px;
+}
+
+
+.article2:hover{
+    background-color: #F7C35F;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+
+}
+
+.article3:focus {
+
+    background-color: #6A8A6D;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in 0s;
+}
+
+.article4:active{
+    background-color: #263C28;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+
+}
+
+.section3 {
+    background-color: #263C28;
+}
+
+.card3 {
+    background-image: url("../image/chelov.jpg");
+    border-radius: 10px;
+    width: 318px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.parf3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: white;
+    max-width: 133px;
+    padding: 5px 0 0 0;
+}
+
+.parfi3 {
+    color: #F7C35F;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.text3 {
+    padding: 264px 25px 20px 25px;
+}

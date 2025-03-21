@@ -1,0 +1,578 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-image: url('./image/fon.jpg');
+    background-repeat:repeat-y;
+    background-position: 100%;
+    text-align: center;
+    overflow-x: hidden;
+}
+.main {
+    height: 100px;
+    width: 100%;
+    background: radial-gradient(#4158d0, #c850c0);
+}
+.nav {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.n1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.n1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.n1 ul li {
+    margin: 40px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.n1 ul li a {
+    color: black;
+    text-decoration: none;
+}
+.n1 ul li a:hover {
+    color: white;
+}
+.t1 {
+    position: relative;
+    top: -60px;
+    left: 30px;
+}
+.i1 {
+    position: relative;
+    right: 160px;
+}
+.i2 {
+    position: relative;
+    right: 160px;
+    top: -40px;
+}
+.t2 {
+    position: relative;
+    top: -90px;
+    left: -40px;
+}
+.i3 {
+    position: relative;
+    right: 160px;
+}
+.i4 {
+    position: relative;
+    right: 160px;
+    top: -32px;
+}
+.i5 {
+    position: relative;
+    right: 160px;
+}
+.i6 {
+    position: relative;
+    right: 160px;
+    top: -32px;
+}
+.t3 {
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+.t4 {
+    position: relative;
+    top: -85px;
+    left: -40px;
+}
+.t5 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+.t6 {
+    position: relative;
+    top: -85px;
+    left: 25px;
+}
+.card1 {
+    border-width: 100px;
+    border-radius: 12px;
+    border-color: black;
+    background-color: hsl(0, 100%, 100%);
+    padding: 50px;
+    margin: 10px;
+    margin-right: 90em;
+    height: 230px;
+    width: 400px;
+}
+.card2 {
+    border-width: 100px;
+    border-radius: 12px;
+    border-color: black;
+    padding: 50px;
+    margin: 10px;
+    margin-right: 90em;
+    height: 230px;
+    width: 400px;
+    position: relative;
+    left: -1400px;
+    bottom: -60px;
+    background-image: url('./image/mar1.jpg');
+    background-position: 100%;
+    background-size: cover;
+}
+.card3 {
+    border-width: 100px;
+    border-radius: 12px;
+    border-color: black;
+    background-color: white;
+    padding: 50px;
+    margin: 10px;
+    margin-right: 90em;
+    height: 230px;
+    width: 400px;
+    position: relative;
+    left: -2800px;
+    bottom: -60px;
+    background-image: url('./image/marr2.jpg');
+    background-position: 100%;
+    background-size: cover;
+}
+.car {
+    display: flex;
+    float: left;
+}
+h1 {
+    color: orange;
+}
+h2 {
+    color: bisque;
+
+}
+#me {
+    margin-left: -550px;
+}
+#contacts {
+    margin-left: 800px;
+}
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#tab {
+    background-color: white;
+    border: 2px black solid;
+}
+.i1, .i2, .i3, .i4, .i5, .i6, .image {
+    border-radius: 12px;
+    width: 50px;
+}
+p {
+    color: rgb(0, 0, 0);
+}
+.one {
+    padding: 120px;
+    margin-right: 1490px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    background-image: url('./image/futbolka.jpg');
+    background-size: 370px;
+}
+.one_1 {
+    background-color: olivedrab;
+    margin-right: 40px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+.text_one {
+    margin: 145px;
+    margin-top: -100px;
+}
+.button {
+    margin: 0px 50px 0px 150px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.buy {
+    margin-right: -50px;
+    margin-top: -110px;
+    margin-left: 160px;
+
+}
+.two {
+    padding: 120px;
+    margin-right: 1490px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-bottom: 25px;
+    background-image: url('./image/hudi.webp');
+    background-size: 370px;
+}
+.two_2 {
+    background-color: olivedrab;
+    margin-right: 40px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+.text_two {
+    margin: 145px;
+    margin-top: -100px;
+}
+.button2 {
+    margin: 0px 50px 0px 150px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.buy2 {
+    margin-right: -50px;
+    margin-top: -110px;
+    margin-left: 160px;
+
+}
+.thre {
+    padding: 120px;
+    margin-right: 1490px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-bottom: 25px;
+    background-image: url('./image/maika.webp');
+    background-size: 370px;
+}
+.thre_3 {
+    background-color: olivedrab;
+    margin-right: 1490px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+.text_thre {
+    margin: 145px;
+    margin-top: -100px;
+}
+.button3 {
+    margin: 0px 50px 0px 150px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.buy3 {
+    margin-right: -50px;
+    margin-top: -110px;
+    margin-left: 160px;
+
+}
+.new {
+    display: flex;
+    float: left;
+    width: 1300px;
+}
+.four {
+    padding: 120px;
+    margin-right: 1490px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-bottom: 25px;
+    background-image: url('./image/bits.jpeg');
+    background-size: 370px;
+}
+.four_4 {
+    background-color: olivedrab;
+    margin-right: 40px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+.text_four {
+    margin: 145px;
+    margin-top: -100px;
+}
+.button4 {
+    margin: 0px 50px 0px 150px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.buy4 {
+    margin-right: -50px;
+    margin-top: -110px;
+    margin-left: 160px;
+
+}
+.five {
+    padding: 120px;
+    margin-right: 1490px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-bottom: 45px;
+    background-image: url('./image/fors.webp');
+    background-size: 370px;
+}
+.five_5 {
+    background-color: olivedrab;
+    margin-right: 40px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+.text_five {
+    margin: 145px;
+    margin-top: -100px;
+}
+.button5 {
+    margin: 0px 50px 0px 150px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.buy5 {
+    margin-right: -50px;
+    margin-top: -110px;
+    margin-left: 160px;
+
+}
+.six {
+    padding: 120px;
+    margin-right: 1490px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-bottom: 45px;
+    background-image: url('./image/kross.webp');
+    background-size: 370px;
+}
+.six_6 {
+    background-color: olivedrab;
+    margin-right: 40px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+.text_six {
+    margin: 145px;
+    margin-top: -100px;
+}
+.button6 {
+    margin: 0px 50px 0px 150px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.buy6 {
+    margin-right: -50px;
+    margin-top: -110px;
+    margin-left: 160px;
+
+}
+.seven {
+    padding: 120px;
+    margin-right: 1490px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-bottom: 45px;
+    background-image: url('./image/kepka.jpg');
+    background-size: 370px;
+}
+.seven_7 {
+    background-color: olivedrab;
+    margin-right: 40px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+.text_seven {
+    margin: 145px;
+    margin-top: -100px;
+}
+.button7 {
+    margin: 0px 50px 0px 150px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.buy7 {
+    margin-right: -50px;
+    margin-top: -110px;
+    margin-left: 160px;
+
+}
+.eght {
+    padding: 120px;
+    margin-right: 1490px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-bottom: 45px;
+    background-image: url('./image/shapka.jpg');
+    background-size: 370px;
+}
+.eght_8 {
+    background-color: olivedrab;
+    margin-right: 40px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+.text_eght {
+    margin: 145px;
+    margin-top: -100px;
+}
+.button8 {
+    margin: 0px 50px 0px 150px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.buy8 {
+    margin-right: -50px;
+    margin-top: -110px;
+    margin-left: 160px;
+
+}
+.nine {
+    padding: 120px;
+    margin-right: 1490px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding-bottom:10px;
+    background-image: url('./image/bandana.jpg');
+    background-size: 370px;
+}
+.nine_9 {
+    background-color: olivedrab;
+    margin-right: 40px;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+}
+.text_nine {
+    margin: 145px;
+    margin-top: -100px;
+}
+.button9 {
+    margin: 0px 50px 0px 150px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.buy9 {
+    margin-right: -50px;
+    margin-top: -110px;
+    margin-left: 160px;
+
+}
+.asd {
+    margin-top: 570px;
+}
+.zxc {
+    position: absolute;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    top: 1570px;
+
+}
+.zxcv {
+    margin-left: 10px;
+}
+.zxca {
+    position: absolute;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    top: 2160px;
+}
+.asdf {
+    position: absolute;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: -390px;
+    top: 2300px;
+}
+.asdz {
+    position: absolute;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    top: 2450px;
+}
+.men {
+    margin-left: 300px;
+    background-color: #808080;
+    margin-right: 268px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 2500px;
+    border-radius: 12px;
+    background: radial-gradient(#4158d0, #c850c0);
+}
+#comments {
+    margin-left: 30px;
+}
+button {
+    background: linear-gradient(to right, rgb(81, 255, 0), rgb(0, 132, 255));
+}
+h1, h2, h3 {
+    text-shadow: 3px 3px 3px orange;
+}
+.one_1:hover {
+    opacity: 0.9;
+    margin: 10px;
+}
+.two_2:hover {
+    opacity: 0.9;
+    margin: 10px;
+}
+.thre_3:hover {
+    opacity: 0.9;
+    margin: 10px;
+}
+.four_4:hover {
+    opacity: 0.9;
+    margin: 10px;
+}
+.five_5:hover {
+    opacity: 0.9;
+    margin: 10px;
+}
+.six_6:hover {
+    opacity: 0.9;
+    margin: 10px;
+}
+.seven_7:hover {
+    opacity: 0.9;
+    margin: 10px;
+}
+.eght_8:hover {
+    opacity: 0.9;
+    margin: 10px;
+}
+.nine_9:hover {
+    opacity: 0.9;
+    margin: 10px;
+}
+
+
