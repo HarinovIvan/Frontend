@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Shafarik&display=swap");
+
+
+.section {
+    width: 1153px;
+    margin: 225px auto;
+}
+.card {
+    background-color: #D9D9D9;
+    display: flex;
+    max-width: 704px;
+    max-height: 384px;
+    margin: 0 65px 61px 0;
+}
+.numbers {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 128px;
+    padding: 105px 0 124px 64px;
+}
+
+.otvet {
+    border: 1px solid black;
+    width: 128px;
+    height: 135px;
+    margin: 105px 62px 0 33px;
+}
+.cards {
+    display: flex;
+    max-height: 384px;
+}
+
+.card2 {
+    background-color: #FFFBFB;
+    width: 384px;
+    height: 440px;
+    border: 1px solid black;
+}
+
+.text-card2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #001867;
+    text-align: center;
+}
+
+.numbers2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-left:37px;
+}
+.result {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: green;
+    position: relative;
+    bottom: 39px;
+    left: 221px;
+}
+
+.button {
+    background-color: #037826;
+    padding: 18px 15px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 64px 0 0;
+}
+.button:hover {
+    cursor: pointer;
+    outline: 1px solid black;
+    transition: all 0.3s ease-in 0s;
+}
+
+.foot {
+    display: flex;
+}
+
+.count {
+    background-color: #D9D9D9;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    padding: 10px 23px;
+}
+
+.count2 {
+    position: relative;
+    border: 1px solid black;
+    width: 64px;
+    height: 56px;
+    bottom: 56px; 
+    left: 321px;
+}
+
+.ot {
+    margin-top: 22px;
+}
