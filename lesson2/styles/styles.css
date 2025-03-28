@@ -7,6 +7,43 @@
     font-family: Livvic;
 }
 
+.header{
+    background-color: #6D8C54;
+}
+
+.ul {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.nav ul li a{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color: #F6D086;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+
+.nav ul li a:focus {
+    color: #C58D21;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+    border: none;
+    outline: none;
+}
+
+.nav ul li a:active {
+    color: #F6D086;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+
 
 .section8{
     width: 100%;
@@ -270,7 +307,7 @@ img {
 }
 
 .section3{
-    background-color: rgba(236, 232, 232, 0.349);
+    background-color: #334B35;
     padding: 0 0 100px 0;
 }
 
@@ -291,6 +328,7 @@ img {
 
 .ti {
     text-align: center;
+    padding: 100px 0 0 0;
 }
 
 .car {
