@@ -1,0 +1,221 @@
+.main {
+    background-color:gray;
+    width: 100%;
+}
+
+.section {
+    background-color: rgba(249, 250, 251, 1);
+    max-width: 375px;
+    margin: auto auto;
+}
+
+.article_one {
+    display: flex;
+    padding: 16px;
+    background-color: white;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 9px;
+}
+
+.back:hover{
+    cursor: pointer;
+}
+
+.information_user{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 18px;
+}
+
+.nameAndStatus {
+    padding: 0 0 0 12px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.name:hover{
+    cursor: pointer;
+}
+
+.status{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(176, 176, 176, 1);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 135px;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+.article_two {
+    margin: 24px 0 0 0;    
+}
+
+.frame-one{
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container-one {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chat-background {
+    background-color: rgba(0, 95, 249, 1);
+    padding: 12px 16px 0 16px;
+    border-radius: 12px;
+}
+
+.chat-text::after{
+    content: "Привет, как правильно \A переносить макет из Figma?";
+    white-space: pre;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.container-two{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
+    padding: 3px 0 12px 182.25px;  
+}
+
+.time {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgba(249, 250, 251, 1);
+}
+
+.container-three{
+    background-color: white;
+    padding: 12px 0 0 32px;
+    border-radius: 12px;
+    max-width: 272px;
+}
+
+.container-three ol li {
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.container-time {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 16px 12px 189px; 
+}
+
+.time-two {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgba(176, 176, 176, 1);
+}
+
+.chat-text-two{
+    background-color: rgba(0, 95, 249, 1);
+    padding: 12px 0 0 24px;
+    border-radius: 12px;
+    max-width: 202px;
+}
+
+.chat-background-two{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.container-time-two {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
+    padding: 3px 15px 12px 149.25px;  
+}
+
+.container-four {
+    background-color: white;
+    padding: 12px 0 0 16px;
+    border-radius: 12px;
+    max-width: 272px;
+}
+
+.chat-background-four::after{
+    content: "100%, если что, мы всегда \A поможем тебе)";
+    white-space: pre;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.form {
+    background-color: white;
+    padding: 14px 0 38px 16px;
+    max-width: 375px;
+    box-shadow: 2px -7px 15px -9px rgba(0, 0, 0, 0.06);
+    display: flex;
+    gap: 10px;
+    margin: 148px 0 0 0;
+}
+
+.message {
+    background-color: rgba(249, 250, 251, 1);
+    padding: 12px 14px;
+    width: 285px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.button {
+    background-color: rgba(0, 95, 249, 1);
+    border-radius: 8px;
+    padding: 15.72px 14.84px;
+}
+
+.button:hover {
+    cursor: pointer;
+    outline: 1px solid black;
+    transition: all 0.3s ease-in 0s;
+    transform: scale(1.06);
+}
+
+.button:active {
+    cursor: pointer;
+    outline: 1px solid black;
+    transition: all 0.3s ease-in 0s;
+    transform: scale(1.06);
+
+}
+
+.button:focus {
+    background-color: black;
+    cursor: pointer;
+    outline: 1px solid black;
+    transition: all 0.3s ease-in 0s;
+    transform: scale(1.06);
+}
