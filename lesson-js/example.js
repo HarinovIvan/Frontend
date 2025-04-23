@@ -225,65 +225,140 @@
 
 
 
-//дз
+// //дз
+// //основная часть 
+// //1
+
+// let ages = Number(prompt("Введите свой возраст"));
+// if(ages < 18){
+//     console.log("Вы ещё слишком молоды");
+// } else if(18 <= ages && ages <= 65) {
+//     console.log("Добро пожаловать!");
+// } else {
+//     console.log("Пожалуйста, будьте осторожны");
+// }
+
+//  //2
+
+// let number = Number(prompt("Введите число"));
+// let additions = 0;
+// for(let i = 1; i <= number; i++){
+//     additions += i;
+// }
+// console.log(`Сумма чисел от 1 до ${number} = ${additions}`);
+
+
+//  //3
+// function square(r)
+// {
+//     const p = 3.14;
+//     console.log(`Площадь круга с радиусом ${r} равна ${p * (r * r)}`);
+// }
+// let r = Number(prompt("Введите радиус"));
+// square(r);
+
+
+// //часть продвинутая
+// //4
+
+// let numbers = Number(prompt("Введите число"));
+// for (let i = 2; i <= numbers; i++) {
+//   let primeNumbers = true;
+//   for (let j = 2; j < i; j++) {
+//     if (i % j === 0) {
+//       primeNumbers = false;
+//       break;
+//     }
+//   }
+//   if (primeNumbers) {
+//     console.log(i);
+//   }
+// }
+
+
+//  //5 
+
+// for(let x = 0; x < 10; x++)
+//     {
+//         for(let y = 0; y < 10; y++)
+//         {
+//             console.log(`${x} * ${y} = ${x * y}`);
+//         }
+//     }
+// console.log('');
+
+
+//дз 
 //основная часть 
 //1
 
-let ages = Number(prompt("Введите свой возраст"));
-if(ages < 18){
-    console.log("Вы ещё слишком молоды");
-} else if(18 <= ages <= 65) {
-    console.log("Добро пожаловать!");
-} else {
-    console.log("Пожалуйста, будьте осторожны");
+let numbers = [1, 2, 3, 4, 5];
+numbers.push(6);
+numbers.shift();
+numbers.unshift(0);
+numbers.pop();
+console.log(numbers);
+
+//2
+let user = {
+    name: "ivan",
+    age: 16,
+    isStudents: false
 }
-
- //2
-
-let number = Number(prompt("Введите число"));
-let additions = 0;
-for(let i = 1; i <= number; i++){
-    additions += i;
+function informationUser(user){
+    return `Имя ${user.name}, Возраст: ${user.age}, Статус: ${user.isStudents}`;
 }
-console.log(`Сумма чисел от 1 до ${number} = ${additions}`);
+console.log(informationUser(user));
 
+//3 
 
- //3
-function square(r)
+function add(array)
 {
-    const p = 3.14;
-    console.log(`Площадь круга с радиусом ${r} равна ${p * (r * r)}`);
+    return array.map(number => number * 2);
 }
-let r = Number(prompt("Введите радиус"));
-square(r);
+
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(`Оригинал: ${array}`)
+console.log(`Измененный: ${add(array)}`);
 
 
-//часть продвинутая
+
+//Продвинутая 
 //4
 
-let numbers = Number(prompt("Введите число"));
-for (let i = 2; i <= numbers; i++) {
-  let primeNumbers = true;
-  for (let j = 2; j < i; j++) {
-    if (i % j === 0) {
-      primeNumbers = false;
-      break;
-    }
-  }
-  if (primeNumbers) {
-    console.log(i);
-  }
+function filterNumber(arrayNumber)
+{
+    return arrayNumber.filter(number => number > 5);
 }
 
+let arrayNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(`Оригинал: ${arrayNumber}`)
+console.log(`Измененный: ${filterNumber(arrayNumber)}`);
 
- //5 
+//5
 
-for(let x = 0; x < 10; x++)
-    {
-        for(let y = 0; y < 10; y++)
-        {
-            console.log(`${x} * ${y} = ${x * y}`);
-        }
-    }
-console.log('');
+function sumArray(arraySum) {
+    return arraySum.reduce((acc, number) => acc + number, 0);
+  }
+  
+let arraySum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(`Оригинал: ${arraySum}`)
+console.log(`Измененный: ${sumArray(arraySum)}`);
 
+//6
+
+let shop = {
+    name: "Цум",
+    products: [
+      { productName: "Штаны", price: 100000 },
+      { productName: "Свиторы", price: 50000 },
+      { productName: "Обувь", price: 900000 },
+      { productName: "Головные уборы", price: 200000 }
+    ]
+  };
+  
+  function SumPrice(shop) {
+    return shop.products.reduce((acc, product) => acc + product.price, 0);
+  }
+
+  console.log(SumPrice(shop));
