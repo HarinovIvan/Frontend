@@ -292,73 +292,80 @@
 //основная часть 
 //1
 
-let numbers = [1, 2, 3, 4, 5];
-numbers.push(6);
-numbers.shift();
-numbers.unshift(0);
-numbers.pop();
-console.log(numbers);
+// let numbers = [1, 2, 3, 4, 5];
+// numbers.push(6);
+// numbers.shift();
+// numbers.unshift(0);
+// numbers.pop();
+// console.log(numbers);
 
-//2
-let user = {
-    name: "ivan",
-    age: 16,
-    isStudents: false
-}
-function informationUser(user){
-    return `Имя ${user.name}, Возраст: ${user.age}, Статус: ${user.isStudents}`;
-}
-console.log(informationUser(user));
+// //2
+// let user = {
+//     name: "ivan",
+//     age: 16,
+//     isStudents: false
+// }
+// function informationUser(user){
+//     return `Имя ${user.name}, Возраст: ${user.age}, Статус: ${user.isStudents}`;
+// }
+// console.log(informationUser(user));
 
-//3 
+// //3 
 
-function add(array)
-{
-    return array.map(number => number * 2);
-}
+// function add(array)
+// {
+//     return array.map(number => number * 2);
+// }
 
-let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(`Оригинал: ${array}`)
-console.log(`Измененный: ${add(array)}`);
+// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(`Оригинал: ${array}`)
+// console.log(`Измененный: ${add(array)}`);
 
 
 
-//Продвинутая 
-//4
+// //Продвинутая 
+// //4
 
-function filterNumber(arrayNumber)
-{
-    return arrayNumber.filter(number => number > 5);
-}
+// function filterNumber(arrayNumber)
+// {
+//     return arrayNumber.filter(number => number > 5);
+// }
 
-let arrayNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(`Оригинал: ${arrayNumber}`)
-console.log(`Измененный: ${filterNumber(arrayNumber)}`);
+// let arrayNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(`Оригинал: ${arrayNumber}`)
+// console.log(`Измененный: ${filterNumber(arrayNumber)}`);
 
-//5
+// //5
 
-function sumArray(arraySum) {
-    return arraySum.reduce((acc, number) => acc + number, 0);
-  }
+// function sumArray(arraySum) {
+//     return arraySum.reduce((acc, number) => acc + number, 0);
+//   }
   
-let arraySum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(`Оригинал: ${arraySum}`)
-console.log(`Измененный: ${sumArray(arraySum)}`);
+// let arraySum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(`Оригинал: ${arraySum}`)
+// console.log(`Измененный: ${sumArray(arraySum)}`);
 
-//6
+// //6
 
-let shop = {
-    name: "Цум",
-    products: [
-      { productName: "Штаны", price: 100000 },
-      { productName: "Свиторы", price: 50000 },
-      { productName: "Обувь", price: 900000 },
-      { productName: "Головные уборы", price: 200000 }
-    ]
-  };
+// let shop = {
+//     name: "Цум",
+//     products: [
+//       { productName: "Штаны", price: 100000 },
+//       { productName: "Свиторы", price: 50000 },
+//       { productName: "Обувь", price: 900000 },
+//       { productName: "Головные уборы", price: 200000 }
+//     ]
+//   };
   
-  function SumPrice(shop) {
-    return shop.products.reduce((acc, product) => acc + product.price, 0);
-  }
+//   function SumPrice(shop) {
+//     return shop.products.reduce((acc, product) => acc + product.price, 0);
+//   }
 
-  console.log(SumPrice(shop));
+//   console.log(SumPrice(shop));
+
+
+
+
+// дз
+//основная часть 
+//1

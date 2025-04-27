@@ -1,0 +1,7 @@
+.item {
+    font-weight:bold;
+}
+
+.item:hover{
+    cursor: pointer;
+}
