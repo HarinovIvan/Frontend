@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #main-header {
+    color: blue;
+    text-align: center;
+  }
+  
+  .text-paragraph {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  #list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .highlight {
+    background-color: yellow;
+    font-weight: bold;
+  }
+
+  .main-header-new {
+    color: red !important;
+    font-style: italic;
+  }

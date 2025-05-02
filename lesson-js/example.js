@@ -366,6 +366,70 @@
 
 
 
-// дз
-//основная часть 
-//1
+// Практика А. Создание и отображение сообщений
+// На этой практике вы будете использовать JavaScript для создания функционального чата. Вы заранее подготовили HTML и CSS код для чата на уроке 27. Теперь ваша задача — добавить JavaScript код для отправки и отображения сообщений, а также для симуляции ответов.
+// Цель: Научиться создавать и отображать сообщения в чате с помощью JavaScript.
+// Инструкция:
+// Откройте файл index.html и убедитесь, что у вас подключены файлы styles.css и script.js.
+// В script.js добавьте код для:
+// Создания функции addMessage, которая будет добавлять сообщение в окно чата.
+// Добавления обработчика события на кнопку отправки сообщения.
+// Добавления обработчика события для клавиши Enter в поле ввода.
+// Оберните весь код в обработчик события с событием DOMContentLoaded
+
+
+document.addEventListener("DOMContentLoaded", () =>
+{
+    let messUser = document.querySelector('.mess');
+    let input = document.querySelector('.message');
+    let btn = document.querySelector('.button');
+    let a = input.value;
+    let mesageFac = document.createElement('p');
+    mesageFac.classList.add('chat-text-two');
+    mesageFac.textContent = a;
+    messUser.appendChild(mesageFac);
+
+})
+
+
+
+
+
+
+
+
+
+// document.addEventListener (*DOMContentLoaded", 0) =>
+
+//     let wodes = document. querySelector (" get mes*):
+//     let messages = document-querySelector ("-nessages"):
+//     let input = document.querySelector(*.input-mes*);
+//     tunction getMes()
+//     let a - input. value;
+//     ict mess = document. createElewent("P*);
+//     mess.classList. add ("blue_mes");
+//     mess. textContent = a;
+//     messages.appendChild (mess);
+
+
+
+
+
+
+// Практика B. Имитация ответов
+// Цель: Научиться симулировать ответы бота после отправки сообщений пользователем.
+// Скрипт общения на любую тему, которую вам захочется.
+// Инструкция:
+// Откройте файл script.js.
+// В script.js добавьте код для:
+// Симуляции ответа бота через некоторое время после отправки сообщения пользователем.
+// Использования функции setTimeout для задержки ответа.
+
+
+// Практика С. Улучшение пользовательского интерфейса
+// Цель: Научиться улучшать пользовательский интерфейс и добавлять дополнительные функции.
+
+// Инструкция:
+// В script.js добавьте код для:
+// Очистки поля ввода после отправки сообщения.
+// Автоматической прокрутки чата вниз после добавления нового сообщения.
