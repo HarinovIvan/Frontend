@@ -367,6 +367,7 @@
 
 
 // Практика А. Создание и отображение сообщений
+
 // На этой практике вы будете использовать JavaScript для создания функционального чата. Вы заранее подготовили HTML и CSS код для чата на уроке 27. Теперь ваша задача — добавить JavaScript код для отправки и отображения сообщений, а также для симуляции ответов.
 // Цель: Научиться создавать и отображать сообщения в чате с помощью JavaScript.
 // Инструкция:
@@ -376,45 +377,6 @@
 // Добавления обработчика события на кнопку отправки сообщения.
 // Добавления обработчика события для клавиши Enter в поле ввода.
 // Оберните весь код в обработчик события с событием DOMContentLoaded
-
-
-document.addEventListener("DOMContentLoaded", () =>
-{
-    let messUser = document.querySelector('.mess');
-    let input = document.querySelector('.message');
-    let btn = document.querySelector('.button');
-    let a = input.value;
-    let mesageFac = document.createElement('p');
-    mesageFac.classList.add('chat-text-two');
-    mesageFac.textContent = a;
-    messUser.appendChild(mesageFac);
-
-})
-
-
-
-
-
-
-
-
-
-// document.addEventListener (*DOMContentLoaded", 0) =>
-
-//     let wodes = document. querySelector (" get mes*):
-//     let messages = document-querySelector ("-nessages"):
-//     let input = document.querySelector(*.input-mes*);
-//     tunction getMes()
-//     let a - input. value;
-//     ict mess = document. createElewent("P*);
-//     mess.classList. add ("blue_mes");
-//     mess. textContent = a;
-//     messages.appendChild (mess);
-
-
-
-
-
 
 // Практика B. Имитация ответов
 // Цель: Научиться симулировать ответы бота после отправки сообщений пользователем.
@@ -428,8 +390,56 @@ document.addEventListener("DOMContentLoaded", () =>
 
 // Практика С. Улучшение пользовательского интерфейса
 // Цель: Научиться улучшать пользовательский интерфейс и добавлять дополнительные функции.
-
 // Инструкция:
 // В script.js добавьте код для:
 // Очистки поля ввода после отправки сообщения.
 // Автоматической прокрутки чата вниз после добавления нового сообщения.
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const chatContainer = document.querySelector('.frame-one');
+    const messageInput = document.querySelector('.message');
+    const sendButton = document.querySelector('.button');
+    sendButton.addEventListener('click', function() {
+      if (messageInput.value.trim() !== '') {
+        addMessage(messageInput.value);
+        messageInput.value = '';
+        simulateBotResponse();
+      }
+    });
+    messageInput.addEventListener('keypress', function(event) {
+      if (event.key === 'Enter' && messageInput.value.trim() !== '') {
+        addMessage(messageInput.value);
+        messageInput.value = '';
+        simulateBotResponse();
+      }
+    });
+    function simulateBotResponse() {
+      setTimeout(function() {
+        const botMessage = 'привет';
+        addMessage(botMessage);
+      }, 2000);
+    }
+    function scrollToBottom() {
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+    chatContainer.addEventListener('scroll', function() {
+        if (chatContainer.scrollTop + chatContainer.clientHeight >= chatContainer.scrollHeight) {
+            scrollToBottom();
+        }
+    });
+    function addMessage(text) {
+        const messageContainer = document.createElement('div');
+        messageContainer.innerHTML = `${text}`;
+        chatContainer.appendChild(messageContainer);
+        scrollToBottom();
+    }
+});
+  
+   
